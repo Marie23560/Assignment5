@@ -1,0 +1,2 @@
+public class Absshape {
+}
