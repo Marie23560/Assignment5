@@ -15,9 +15,27 @@ public class Main {
         switch (choice){
             case 1:
                 System.out.println("Enter radius: ");
-                double r = sc.nextByte();
+                double r = sc.nextDouble();
                 shape =new AbsCircle(r);
                 break;
+            case 2:
+                System.out.println("Enter Length: ");
+                double l = sc.nextDouble();
+                System.out.println("Enter Width: ");
+                double w = sc.nextDouble();
+                shape = new AbsRectangle(l,w);
+                break;
+            case 3:
+                System.out.println("Enter base: ");
+                double b = sc.nextDouble();
+                System.out.println("Enter height: ");
+                double h = sc.nextDouble();
+                shape = new AbsRectangle(b,h);
+                break;
+            default:
+                System.out.println("Invalid choice!");
+
+
         }
 
 
