@@ -1,2 +1,3 @@
-public class Absshape {
+abstract class Absshape {
+    abstract double calculateArea();
 }
