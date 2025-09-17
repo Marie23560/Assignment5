@@ -25,7 +25,7 @@ public class Main {
                 double w = sc.nextDouble();
                 shape = new AbsRectangle(l,w);
                 break;
-            case 3:
+            case 3
                 System.out.println("Enter base: ");
                 double b = sc.nextDouble();
                 System.out.println("Enter height: ");
@@ -34,10 +34,8 @@ public class Main {
                 break;
             default:
                 System.out.println("Invalid choice!");
-
-
+                return;
         }
-
-
+        System.out.println("Area: " + shape.calculateArea());
     }
 }
